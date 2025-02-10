@@ -1,0 +1,107 @@
+/* seteo de estilos */
+
+* {
+    /* propiedades de espaciados */
+    padding: unset;
+    margin: unset;
+    outline: unset;
+    border: unset;
+
+    /* la propiedad magica */
+    box-sizing: border-box;
+    font-size: 16px;
+}
+/* el resto del seteo se hace en el body */
+body {
+    color: #fffefe;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: #181717;
+    /* font-weight: 400; */
+}   
+
+ul {
+    list-style: none;
+}
+
+
+
+/* --------------------------estilos de navbar---------------------- */
+.panaderia {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 60px;
+    background-color: #ffffff1d;
+    backdrop-filter: blur(10px);
+}
+
+
+/* .encabezado {
+    display: flex;
+    justify-content: space-between;
+} */
+.lista-navbar {
+    display: flex;
+    gap: 80px;
+    justify-content: start;
+    align-items: end;
+    /* height: 200px; */
+    padding: 0px 27px;
+}
+
+.Login {
+    background-color: red;
+    background-image: linear-gradient(45deg, #B60034, #500017);
+    padding: 13px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+.register {
+    background-color: #fffefe;
+    background-image: linear-gradient(50, #fff8f8, #7a6d6d);
+    /* padding: 13px 40px; */
+    border-radius: 10px;
+    font-weight: bold;
+    color: black
+}
+
+
+.jumbotron {
+    padding: 60px;
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.jumbotron h1 {
+    font-size: 56px;
+    font-weight: 52px;
+}
+
+.imagen {
+    background-image: url(assets/pexels-ron-lach-9999326.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.seccion1 {
+    display: flex;
+    padding: 24px 60px;
+    gap: 60px;
+
+}
+
+.tituloh2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+}
+
+.seccion2 {
+    display: flex;
+    padding: 24px 60px;
+    gap: 60px;
+}
